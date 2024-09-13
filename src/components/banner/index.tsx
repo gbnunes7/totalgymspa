@@ -4,7 +4,7 @@ import Title from "../title";
 const Banner = () => {
 	return (
 		<div className="relative w-full h-screen px-4 mt-4">
-			<div className="w-full h-[90%] bg-[url('/banner.jpg')] bg-cover bg-right-top bg-no-repeat rounded-2xl flex items-center p-20">
+			<div className="w-full h-[80%] bg-[url('/banner.jpg')] bg-cover bg-right-top bg-no-repeat rounded-2xl flex items-center p-20">
 				<div className="flex flex-col gap-10 mb-[150px]">
 					<Title>
 						Sua jornada fitness <br></br>começa aqui e agora
