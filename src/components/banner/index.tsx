@@ -1,7 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
 import Title from "../title";
 
-const Banner = () => {
+const BannerPrincipal = () => {
 	return (
 		<div className="relative w-full h-screen px-4 mt-4">
 			<div className="w-full h-[80%] bg-[url('/banner.jpg')] bg-cover bg-right-top bg-no-repeat rounded-2xl flex items-center p-20">
@@ -26,4 +26,4 @@ const Banner = () => {
 	);
 };
 
-export default Banner;
+export default BannerPrincipal;
